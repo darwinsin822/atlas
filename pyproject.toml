@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-supervisor"
+version = "1.0.0"
+description = "Autonomous Task Limitation & Agent Supervision for Antigravity 2.0"
+authors = [{ name = "DarwinSin" }]
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0",
+    "pytest>=8.0.0"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

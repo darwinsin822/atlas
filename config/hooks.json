@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "command": "/home/darwinsin/atlas/atlas/hooks/pre_tool.py"
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "command": "/home/darwinsin/atlas/atlas/hooks/post_tool.py"
+      }
+    ]
+  }
+}
